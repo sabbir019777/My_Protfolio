@@ -63,7 +63,8 @@ const Experience = () => {
   return (
     <div name="experience" className="w-full min-h-screen bg-[#02010a] text-white py-32 relative overflow-hidden font-sans">
       
-      {/* Background Decor */}
+     
+     
       <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-cyan-500/10 blur-[150px] rounded-full animate-pulse"></div>
       <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-purple-500/10 blur-[150px] rounded-full animate-pulse"></div>
 
