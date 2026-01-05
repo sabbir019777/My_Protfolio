@@ -142,7 +142,7 @@ const Contact = () => {
               </div>
               <div className="text-left">
                 <h4 className="font-mono text-xl tracking-[0.3em] text-white font-black uppercase">TAMIM_IQBAL</h4>
-                <p className="text-sm text-cyan-400 font-mono tracking-widest uppercase mt-1">Professional Full Stack Developer</p>
+                <p className="text-sm text-cyan-400 font-mono tracking-widest uppercase mt-1">Professional MERN Stack Developer</p>
               </div>
             </motion.div>
             <div className="text-center order-3 md:order-2">

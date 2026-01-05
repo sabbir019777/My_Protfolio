@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaExternalLinkAlt, FaTimes, FaCode, FaServer, FaCogs } from "react-icons/fa";
 
-// ... তোমার projectData আগের মতোই থাকবে (পরিবর্তন করার দরকার নেই)
+
 const projectData = [
   {
     id: 1,
