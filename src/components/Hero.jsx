@@ -24,7 +24,9 @@ const Hero = () => {
   return (
     <div className="min-h-[150vh] w-full bg-[#02010a] text-white flex items-center justify-center relative overflow-hidden font-sans py-20">
       
-      {/* ব্যাকগ্রাউন্ড গ্রিড */}
+     
+
+     
 
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f2937_1px,transparent_1px),linear-gradient(to_bottom,#1f2937_1px,transparent_1px)] bg-[size:60px_60px] opacity-10"></div>
       
