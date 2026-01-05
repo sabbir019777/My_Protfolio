@@ -26,7 +26,7 @@ const Contact = () => {
 
   return (
     <div name="contact" className="w-full min-h-screen bg-gray-950 text-white py-20 relative overflow-hidden">
-      {/* Background Glows */}
+
       <div className="absolute top-20 left-10 w-64 h-64 bg-cyan-500/10 blur-[100px] rounded-full"></div>
       
       <div className="max-w-screen-xl mx-auto px-6 relative z-10">
