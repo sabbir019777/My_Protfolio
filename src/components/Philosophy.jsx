@@ -53,7 +53,9 @@ const Philosophy = () => {
       className="w-full min-h-screen bg-[#010103] py-28 px-6 relative flex flex-col items-center overflow-hidden font-sans"
     >
       
-      {/* --- BACKGROUND IMAGE (PUSHED FURTHER UP) --- */}
+      {/* --- BACKGROUND IMAGE  */}
+      
+
       <div className="absolute inset-0 z-0 flex items-center justify-center">
         <motion.div 
           initial={{ opacity: 0, scale: 1.1, y: -50 }}
