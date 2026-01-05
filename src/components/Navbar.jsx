@@ -27,7 +27,9 @@ const Navbar = () => {
     <nav className={`fixed w-full z-[1000] transition-all duration-500 flex justify-center px-6 ${scrolled ? "top-4" : "top-10"}`}>
       <div className="w-full max-w-5xl relative">
         
-        {/* প্রধান কন্টেইনার */}
+     
+
+     
 
         <div className="absolute inset-0 bg-[#0a1118]/60 backdrop-blur-md border border-white/10 rounded-[40px] shadow-2xl"></div>
 
