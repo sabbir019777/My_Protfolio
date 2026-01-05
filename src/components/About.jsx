@@ -20,7 +20,7 @@ const About = () => {
       name="about"
       className="w-full min-h-screen bg-[#02010a] text-white py-20 flex items-center relative overflow-hidden font-sans"
     >
-      {/* Background Glows */}
+    
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_30%,#1e1b4b_0%,transparent_50%)] opacity-30"></div>
       <div className="absolute bottom-0 right-0 w-full h-full bg-[radial-gradient(circle_at_80%_70%,#1e1b4b_0%,transparent_50%)] opacity-30"></div>
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#1f2937_1px,transparent_1px),linear-gradient(to_bottom,#1f2937_1px,transparent_1px)] bg-[size:40px_40px] opacity-[0.1]"></div>
@@ -118,6 +118,7 @@ const About = () => {
         </div>
 
         {/* --- Right Column: Hobbies & Metrics --- */}
+        
         <div className="lg:col-span-3 flex flex-col gap-12 lg:pt-20 self-start mt-20">
           <div className="space-y-6">
             <p className="text-[12px] text-gray-500 uppercase tracking-[5px] font-bold pl-3 border-l-4 border-purple-500">Hobbies</p>
@@ -148,5 +149,8 @@ const About = () => {
     </div>
   );
 };
+
+
+
 
 export default About;
