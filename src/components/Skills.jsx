@@ -29,7 +29,7 @@ const Skills = () => {
       title: "Development Suite",
       icon: <FaTools className="text-purple-500" />,
       skills: [
-        { name: "Git / GitHub", level: 80, icon: <FaGitAlt className="text-orange-600" /> },
+        { name: "Git / GitHub", level: 70, icon: <FaGitAlt className="text-orange-600" /> },
         { name: "Figma (UI/UX)", level: 53, icon: <FaFigma className="text-pink-500" /> },
         { name: "Vite / NPM", level: 65, icon: <SiVite className="text-purple-400" /> },
         { name: "Problem Solving", level: 80, icon: <FaDatabase className="text-blue-500" /> },
