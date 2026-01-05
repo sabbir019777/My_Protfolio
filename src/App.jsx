@@ -9,6 +9,9 @@ import Projects from "./components/Projects";
 
 import Contact from "./components/Contact";
 
+
+
+
 function App() {
   return (
     <div className="bg-[#030014]">
@@ -16,7 +19,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Experience />
+       <Experience />
       <Philosophy />
 
       <Projects />

@@ -98,7 +98,8 @@ const Projects = () => {
           <div className="w-48 h-1 bg-gradient-to-r from-cyan-500 via-blue-600 to-transparent mx-auto mt-6 rounded-full shadow-[0_0_25px_#22d3ee]"></div>
         </div>
 
-        {/* --- CARDS GRID --- */}
+
+
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {projectData.map((project, index) => (
