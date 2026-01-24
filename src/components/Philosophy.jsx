@@ -63,7 +63,7 @@ const Philosophy = () => {
           transition={{ duration: 1.5 }}
           className="w-full max-w-[1500px] h-[1000px]" 
           style={{
-            backgroundImage: `url('https://i.ibb.co/9PL5R2m/my.png')`,
+            backgroundImage: `url('https://i.ibb.co/ZzXGVjGw/Screenshot-2026-01-25-003535.png')`,
             backgroundSize: 'contain',
             backgroundPosition: 'center 10%', 
             backgroundRepeat: 'no-repeat',

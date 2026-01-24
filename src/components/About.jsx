@@ -86,7 +86,7 @@ const About = () => {
             {/* Inner Glow Overlay */}
             <div className="absolute inset-0 bg-cyan-500/5 mix-blend-screen z-10 pointer-events-none"></div>
             <img 
-              src="https://i.ibb.co/DD3z1MPR/yyy.png" 
+              src="https://i.ibb.co/mCCvLvK5/Screenshot-2026-01-24-235608.png" 
               alt="Tamim Iqbal" 
               className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-110 object-top"
             />

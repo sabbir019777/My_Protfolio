@@ -83,7 +83,7 @@ const Hero = () => {
 
             <div className="flex items-center gap-8 pl-4 border-l border-white/10">
               <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaLinkedin size={28} /></a>
-              <a href="https://github.com/YOUR_PROFILE" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaGithub size={28} /></a>
+              <a href="https://github.com/sabbir019777" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaGithub size={28} /></a>
               <a href="https://facebook.com/YOUR_PROFILE" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaFacebook size={28} /></a>
             </div>
           </div>
