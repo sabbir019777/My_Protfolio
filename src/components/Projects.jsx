@@ -10,7 +10,7 @@ const projectData = [
     image: "https://static.vecteezy.com/system/resources/thumbnails/050/809/138/small/vintage-cars-and-classic-automobile-show-parade-of-retro-luxury-classic-old-cars-photo.jpeg", 
     description: "Premium car booking system with real-time availability and secure Stripe payments.",
     techStack: ["React", "Node", "MongoDB"],
-    liveLink: "https://amazing-bavarois-33f61c.netlify.app",
+    liveLink: "https://car-rentals-plantform.netlify.app",
     challenges: "Handling dual reservations & image optimization.",
     improvements: "AI-driven predictive maintenance engine."
   },
@@ -34,15 +34,15 @@ const projectData = [
     challenges: "Optimizing DOM for 1000+ tickets.",
     improvements: "NLP-based auto-replies system."
   },
-  {
+ {
     id: 4,
-    title: "GreenNest Eco-Care",
-    image: "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?q=80&w=2070&auto=format&fit=crop",
-    description: "Cyber-botanist portal with seasonal data and interactive HUD interface.",
-    techStack: ["Vite", "Three.js", "GSAP"],
-    liveLink: "https://green-plantcare.netlify.app",
-    challenges: "SVG path-drawing synchronization.",
-    improvements: "IoT moisture sensor integration."
+    title: "Tech Vibe",
+    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070&auto=format&fit=crop", // Tech workspace image
+    description: "A modern tech enthusiast portal featuring latest gadget reviews and tech news.",
+    techStack: ["React", "Tailwind", "Vite"],
+    liveLink: "https://tech-vibe-eight.vercel.app",
+    challenges: "Implementing dynamic content filtering.",
+    improvements: "Adding user authentication for comments."
   },
   {
     id: 5,
@@ -54,15 +54,15 @@ const projectData = [
     challenges: "Sub-50ms latency monitoring.",
     improvements: "Next-gen GraphQL mesh deployment."
   },
-  {
+ {
     id: 6,
-    title: "Sustainable Living AR",
-    image: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=2013&auto=format&fit=crop",
-    description: "AR architecture guide for sustainable home design with carbon metrics.",
-    techStack: ["React", "WebXR", "Three.js"],
-    liveLink: "https://green-nest-projects.netlify.app/",
-    challenges: "60fps AR rendering on mobile browsers.",
-    improvements: "Multi-player design collaboration."
+    title: "Employee & Asset Manager", 
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop", 
+    description: "A comprehensive full-stack platform for managing company assets and employee workflow.",
+    techStack: ["React", "MongoDB", "Express.js"],
+    liveLink: "https://assignment-12-gray.vercel.app",
+    challenges: "Handling complex database queries and JWT auth.",
+    improvements: "Real-time notification integration."
   }
 ];
 
