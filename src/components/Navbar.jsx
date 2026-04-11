@@ -20,7 +20,7 @@ const Navbar = () => {
     { id: 3, link: "about", label: "ABOUT" },
     { id: 4, link: "philosophy", label: "PHILOSOPHY" }, 
     { id: 5, link: "experience", label: "EXPERIENCE" }, 
-    { id: 6, link: "contact", label: "CONTACT" },
+  
   ];
 
   return (
@@ -41,13 +41,7 @@ const Navbar = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-cyan-400/60 blur-xl rounded-full animate-pulse"></div>
               <div className="absolute -inset-1 bg-cyan-500/30 blur-md rounded-full"></div>
-              <div className="relative w-12 h-12 rounded-full border-2 border-cyan-400 p-[2px] overflow-hidden bg-[#0a1118] shadow-[0_0_20px_rgba(34,211,238,0.7)]">
-                <img 
-                  src="https://i.ibb.co/yLkpcLL/ttt.png" 
-                  alt="Avatar" 
-                  className="w-full h-full rounded-full object-cover"
-                />
-              </div>
+            
             </div>
             <div className="relative flex items-center justify-center w-16 h-16">
               <div className="absolute w-14 h-9 border border-cyan-400/60 rounded-[100%] rotate-[30deg] animate-[spin_4s_linear_infinite]"></div>

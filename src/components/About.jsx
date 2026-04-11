@@ -86,8 +86,8 @@ const About = () => {
             {/* Inner Glow Overlay */}
             <div className="absolute inset-0 bg-cyan-500/5 mix-blend-screen z-10 pointer-events-none"></div>
             <img 
-              src="https://i.ibb.co/mCCvLvK5/Screenshot-2026-01-24-235608.png" 
-              alt="Tamim Iqbal" 
+              src="" 
+              alt="Taherul Islam" 
               className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-110 object-top"
             />
             
@@ -102,7 +102,7 @@ const About = () => {
             {/* Bottom ID Bar - Increased contrast */}
             <div className="absolute bottom-0 left-0 right-0 p-10 bg-gradient-to-t from-black via-black/80 to-transparent backdrop-blur-[2px]">
                 <p className="text-[12px] font-mono text-cyan-400 tracking-[8px] animate-pulse font-bold">SYSTEM_SCAN: COMPLETE</p>
-                <h3 className="text-3xl font-black italic tracking-widest text-white drop-shadow-[0_0_15px_#fff] mt-2">TAMIM IQBAL</h3>
+                <h3 className="text-3xl font-black italic tracking-widest text-white drop-shadow-[0_0_15px_#fff] mt-2">TAHERUL ISLAM</h3>
             </div>
           </motion.div>
 
@@ -136,11 +136,11 @@ const About = () => {
 
           <div className="space-y-10 pt-10 border-t border-white/10">
             <div className="flex items-baseline gap-5">
-              <span className="text-6xl font-black italic text-cyan-400 leading-none drop-shadow-[0_0_20px_#22d3ee]">1+</span>
+              <span className="text-6xl font-black italic text-cyan-400 leading-none drop-shadow-[0_0_20px_#22d3ee]">2+</span>
               <span className="text-[12px] text-gray-500 uppercase tracking-widest leading-tight font-bold">Years <br /> Experience</span>
             </div>
             <div className="flex items-baseline gap-5">
-              <span className="text-6xl font-black italic text-purple-500 leading-none drop-shadow-[0_0_20px_#a855f7]">15+</span>
+              <span className="text-6xl font-black italic text-purple-500 leading-none drop-shadow-[0_0_20px_#a855f7]">25+</span>
               <span className="text-[12px] text-gray-500 uppercase tracking-widest leading-tight font-bold">Major <br /> Projects</span>
             </div>
           </div>

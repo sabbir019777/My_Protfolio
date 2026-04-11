@@ -4,10 +4,10 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const heroImage = "https://i.ibb.co/d0y925Lt/Gemini-Generated-Image-po94y4po94y4po94.png";
+  const heroImage = "";
   
   const [text, setText] = useState("");
-  const fullText = "Tamim Iqbal";
+  const fullText = "Taherul islam";
   
   useEffect(() => {
     let i = 0;
@@ -41,7 +41,7 @@ const Hero = () => {
             className="inline-flex items-center gap-4 px-6 py-2 bg-cyan-950/20 border border-cyan-500/20 rounded-full w-fit backdrop-blur-md"
           >
             <span className="w-2.5 h-2.5 bg-cyan-400 rounded-full animate-ping"></span>
-            <span className="text-cyan-400 font-mono text-sm tracking-[0.5em] uppercase">Status: Online_System</span>
+            <span className="text-cyan-400 font-mono text-sm tracking-[0.5em] uppercase">MERN Stack Developer</span>
           </motion.div>
 
           
@@ -65,28 +65,7 @@ const Hero = () => {
             </p>
           </motion.div>
 
-          <div className="flex flex-wrap items-center gap-10">
-            <a 
-              href="/tamim_cv.pdf" 
-              download="Tamim_Iqbal_CV.pdf"
-              className="px-12 py-5 bg-cyan-500 text-black font-black uppercase tracking-widest rounded-2xl hover:bg-cyan-400 hover:scale-105 transition-all shadow-[0_20px_40px_rgba(34,211,238,0.25)] active:scale-95 flex items-center justify-center no-underline"
-            >
-              Download CV
-            </a>
-            
-            <button 
-              onClick={() => document.getElementById("projects")?.scrollIntoView({ behavior: "smooth" })}
-              className="flex items-center gap-3 group text-xl font-bold tracking-widest text-gray-300 hover:text-cyan-400 transition-all cursor-pointer bg-transparent border-none outline-none"
-            >
-              VIEW PROJECTS <MdOutlineKeyboardArrowRight size={30} className="group-hover:translate-x-3 transition-all" />
-            </button>
-
-            <div className="flex items-center gap-8 pl-4 border-l border-white/10">
-              <a href="https://linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaLinkedin size={28} /></a>
-              <a href="https://github.com/sabbir019777" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaGithub size={28} /></a>
-              <a href="https://facebook.com/YOUR_PROFILE" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 hover:scale-125 transition-all duration-300"><FaFacebook size={28} /></a>
-            </div>
-          </div>
+         
         </div>
 
         {/* --- ডান পাশের ইমেজ স্ট্যাক --- */}
@@ -98,7 +77,7 @@ const Hero = () => {
             transition={{ duration: 4, repeat: Infinity }}
             className="absolute -top-20 left-0 z-50 bg-cyan-500/10 border border-cyan-500/40 px-6 py-2 rounded-lg backdrop-blur-md shadow-[0_0_20px_rgba(34,211,238,0.2)]"
           >
-            <p className="text-cyan-400 font-mono text-sm tracking-widest uppercase">ID: PROTOCOL_TAMIM_2.6</p>
+            <p className="text-cyan-400 font-mono text-sm tracking-widest uppercase">Taherul Islam </p>
           </motion.div>
 
           <div className="relative w-[340px] h-[480px] md:w-[480px] md:h-[620px]">
@@ -141,7 +120,7 @@ const Hero = () => {
                   </div>
              
                   <h3 className="text-4xl font-black tracking-tight italic bg-clip-text text-transparent bg-gradient-to-r from-white via-cyan-100 to-cyan-400 drop-shadow-[0_2px_10px_rgba(34,211,238,0.5)]">
-                    TAMIM IQBAL
+                  Taherul Islam
                   </h3>
                 </div>
               </div>

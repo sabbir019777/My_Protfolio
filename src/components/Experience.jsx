@@ -7,14 +7,12 @@ const Experience = () => {
     {
       degree: "Higher Secondary Certificate (HSC)",
       institution: "BKSP PUBLIC SCHOOL & COLLEGE",
-      duration: "2026 - Present",
       subject: "Science",
       details: "Currently pursuing HSC in Science group. My core focus is on Physics and Higher Math to build a strong analytical foundation for my future dream of studying CSE."
     },
     {
       degree: "Secondary School Certificate (SSC)",
       institution: "BEPZA PUBLIC SCHOOL AND COLLEGE",
-      duration: "2024 - 2025",
       subject: "Science",
       details: "Successfully completed SSC from Science group. This period ignited my passion for technology and logical problem-solving."
     }

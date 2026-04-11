@@ -7,7 +7,7 @@ import Philosophy from "./components/Philosophy";
 
 import Projects from "./components/Projects";
 
-import Contact from "./components/Contact";
+
 
 
 
@@ -24,7 +24,7 @@ function App() {
 
       <Projects />
 
-      <Contact />
+    
     </div>
   );
 }
