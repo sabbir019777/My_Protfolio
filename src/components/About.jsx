@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaFutbol, FaPlaneDeparture, FaLaptopCode, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaFutbol, FaPlaneDeparture, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiMongodb, SiExpress } from "react-icons/si";
 
 const About = () => {
@@ -86,7 +86,7 @@ const About = () => {
             {/* Inner Glow Overlay */}
             <div className="absolute inset-0 bg-cyan-500/5 mix-blend-screen z-10 pointer-events-none"></div>
             <img 
-              src="" 
+              src="https://i.ibb.co/qLThS8WV/abbu-3.png" 
               alt="Taherul Islam" 
               className="w-full h-full object-cover grayscale-[10%] group-hover:grayscale-0 transition-all duration-1000 group-hover:scale-110 object-top"
             />
@@ -149,8 +149,5 @@ const About = () => {
     </div>
   );
 };
-
-
-
 
 export default About;

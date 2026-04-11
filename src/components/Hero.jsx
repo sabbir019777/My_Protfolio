@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Hero = () => {
-  const heroImage = "";
+  const heroImage = "https://i.ibb.co/ZpvGMdRQ/abbu.png";
   
   const [text, setText] = useState("");
   const fullText = "Taherul islam";

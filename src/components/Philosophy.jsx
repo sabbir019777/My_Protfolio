@@ -4,42 +4,42 @@ import { motion } from "framer-motion";
 const Philosophy = () => {
   const principles = [
     { 
-      id: 1, 
+  
       title: "Scalable Architecture", 
       desc: "I write code that isn't just functional, but maintainable for the next decade. Clean architecture is my core investment.",
       icon: "🧩",
       glowColor: "rgba(6, 182, 212, 0.5)"
     },
     { 
-      id: 2, 
+    
       title: "Business Impact Logic", 
       desc: "Beyond syntax, I focus on building digital assets that solve real-world problems and drive massive global impact.",
       icon: "🚀",
       glowColor: "rgba(168, 85, 247, 0.5)"
     },
     { 
-      id: 3, 
+       
       title: "Performance First", 
       desc: "Speed is a feature. I prioritize lightweight architecture to ensure lightning-fast execution and zero-latency UX.",
       icon: "⚡",
       glowColor: "rgba(245, 158, 11, 0.5)"
     },
     { 
-      id: 4, 
+   
       title: "Entrepreneurial Mindset", 
       desc: "I don't just build websites; I architect ecosystems designed to scale from zero to a billion-dollar legacy.",
       icon: "💡",
       glowColor: "rgba(59, 130, 246, 0.5)"
     },
     { 
-      id: 5, 
+      
       title: "Security & Encryption", 
       desc: "Security is baked in from the first line of code. I ensure every API and input is shielded with advanced protocols.",
       icon: "🔒",
       glowColor: "rgba(244, 63, 94, 0.5)"
     },
     { 
-      id: 6, 
+     
       title: "Continuous Evolution", 
       desc: "In tech, stagnation is death. I commit to learning emerging stacks every day to stay ahead of the global market.",
       icon: "🌐",
@@ -63,7 +63,7 @@ const Philosophy = () => {
           transition={{ duration: 1.5 }}
           className="w-full max-w-[1500px] h-[1000px]" 
           style={{
-            backgroundImage: `url('')`,
+            backgroundImage: `url('https://i.ibb.co/h1rbmBwS/abbu-2.png')`,
             backgroundSize: 'contain',
             backgroundPosition: 'center 10%', 
             backgroundRepeat: 'no-repeat',
